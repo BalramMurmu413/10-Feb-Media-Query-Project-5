@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+a{
+    font-weight: 600;
+}
+
+body{
+
+    border-radius: 60px;
+    background-color: black;
+}
+
+
+
+/* humberge styling */
+.hamberge img{
+  width: 20px;
+    display: none;
+}
+.hamberge{
+    position: absolute;
+  
+
+}
+/* navgation stayling */
+
+nav{
+    margin: 15px;
+    width: 95vw
+    
+    }
+
+
+nav ul{
+    gap: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 6px 12px;
+}
+/* home active button */
+
+.Active{
+    background: #3a30f7;
+    border-radius: 8px;
+    padding: 4px 8px;
+}
+
+
+
+.para{
+    max-width: 95vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:10px ;
+    gap: 20px;
+
+}
+
+.para img{
+    width: 300px; 
+
+}
+.para{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 30px;
+}
+.left-para-1{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.left-para-2 h1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.left-para-1 p{
+    font-weight: 800;
+
+}
+.left-para-2 h1{
+    font-size: 60px;
+    font-weight: 600;
+
+}
+.left-para-2 h2{
+    font-size: 60px;
+    color: rgb(195, 205, 58);
+    font-weight: 600;
+}
+.left-para-1 img{
+    width: 60px;
+}
+
+/* project image styling  */
+
+ .projects{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px auto;
+ }
+
+ .projects div h1{
+    text-decoration: solid underline #3a30f7 6px;
+    font-size: 35px;
+
+
+ }
+ .project img{
+
+    width: 250px;
+ }
+
+ .project-list{
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-items: center;
+justify-content: center;
+row-gap: 30px;
+column-gap: 30px;
+width: 50%;
+margin: 50px auto;
+
+ }
+ .quick-link a img{
+    width: 20px;
+    margin: 5px;
+ }
+ footer{
+    text-align: center;
+
+ }
+ footer div h1{
+    text-decoration: solid underline #3a30f7 6px;
+ }
+
+ 
+ /* media query for screen size 576px  */
+
+
+ @media screen and (max-width: 576px) {
+    .hamberge img{
+        display: flex;
+    }
+    nav ul{
+        display: none;
+    }
+    .para{
+        display: flex;
+        flex-direction: column;
+        
+    }
+     .left-para-1 p{
+        font-size: 27px;
+
+     }
+     .left-para-1 img{
+        width: 22px;
+     }
+
+     .left-para-2 h1{
+        font-size: 40px;
+
+     }
+     .left-para-2 h2{
+        font-size: 37px;}
+
+    .left-para-1{
+        margin-top: 50px;
+    }
+    img{
+        width: 60vw;
+    }
+    .para-line-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+    .para-line-2 h1{
+        font-size: 40px;
+    }
+    .para-line-2 h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .project-list{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        column-gap: 20px; 
+    }
+    .projects div h1{
+        font-size: 40px;
+    }
+    .contact {
+        margin: 10px auto;
+        font-size: 15px;
+        text-align: center;
+    }
+    .quick-link{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 5px auto;
+    }
+   
+}
